@@ -1,0 +1,5 @@
+﻿transformers
+pandas
+numpy
+torch
+webdriver-manager   # optional – only needed if you later add Selenium scripts
