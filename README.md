@@ -10,7 +10,7 @@ A Python‑based pipeline that uses Hugging Face transformer models to detect 
 
 ## Why it matters
 ---
-Humanitarian teams has privacy compliance. The code automates removal of personally identifiable information (PII) to meet GDPR, HIPAA, or internal data‑handling policies.  
+Humanitarian teams have privacy compliance. The code automates removal of personally identifiable information (PII) to meet GDPR, HIPAA, or internal data‑handling policies.  
 
 
 ## Setup
@@ -18,7 +18,7 @@ Humanitarian teams has privacy compliance. The code automates removal of persona
 1. **Python ≥ 3.8** installed.  
 2. Install the required packages  
 
-   `bash
+   bash
    python -m pip install -r requirements.txt
 
 ## Usage
