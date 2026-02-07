@@ -1,20 +1,20 @@
 ﻿# NER‑Based Text Anonymization
 
----
+
 510_global 2023
 
 **Overview**  
----
+
 A Python‑based pipeline that uses Hugging Face transformer models to detect personal names (and other PII) in textual data and replace them with generic placeholders.
 
 
 ## Why it matters
----
+
 Humanitarian teams have privacy compliance. The code automates removal of personally identifiable information (PII) to meet GDPR, HIPAA, or internal data‑handling policies.  
 
 
 ## Setup
----
+
 1. **Python ≥ 3.8** installed.  
 2. Install the required packages  
 
@@ -22,7 +22,6 @@ Humanitarian teams have privacy compliance. The code automates removal of person
    python -m pip install -r requirements.txt
 
 ## Usage
----
 
 Two pretrained models are required:
 **English** – dslim/bert-base-NER (trained on CoNLL‑2003)
