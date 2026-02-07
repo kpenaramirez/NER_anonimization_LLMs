@@ -18,16 +18,16 @@ Humanitarian teams has privacy compliance. The code automates removal of persona
 1. **Python ≥ 3.8** installed.  
 2. Install the required packages  
 
-   `ash
+   `bash
    python -m pip install -r requirements.txt
 
 ## Usage
 ---
 
 Two pretrained models are required:
->> * **English** – dslim/bert-base-NER (trained on CoNLL‑2003)
->> * **Spanish (cased)** – skimai/spanberta-base-cased-ner-conll02 (trained on CoNLL‑2002)
->>
->> The scripts load the chosen model, run inference on a list of names (or any free‑text file), and export the results to inal.csv.
+**English** – dslim/bert-base-NER (trained on CoNLL‑2003)
+**Spanish (cased)** – skimai/spanberta-base-cased-ner-conll02 (trained on CoNLL‑2002)
+
+The scripts load the chosen model, run inference on a list of names (or any free‑text file), and export the results to inal.csv.
 
 License MIT – feel free to adapt for your own humanitarian projects.
