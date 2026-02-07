@@ -3,7 +3,7 @@
 
 510_global 2023
 
-**Overview**  
+## Overview  
 
 A Python‑based pipeline that uses Hugging Face transformer models to detect personal names (and other PII) in textual data and replace them with generic placeholders.
 
